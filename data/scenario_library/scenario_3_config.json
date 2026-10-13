@@ -1,0 +1,9 @@
+{
+  "id": 3,
+  "name": "追越_单船",
+  "description": "追越局面 - COLREGs 第 13 条：本船为让路船",
+  "ship_num": 1,
+  "encounter_type": "overtaking",
+  "behavior_mode": "standon",
+  "notes": "目标船保向保速，本船应从右舷追越"
+}

@@ -1,0 +1,9 @@
+{
+  "id": 5,
+  "name": "交叉相遇右舷 + 追越_双船",
+  "description": "复合场景：1 船交叉相遇 (右舷)+1 船追越",
+  "ship_num": 2,
+  "encounter_type": "crossing-giveway+overtaking",
+  "behavior_mode": "mixed",
+  "notes": "双船均为让路船，测试多目标避碰能力"
+}

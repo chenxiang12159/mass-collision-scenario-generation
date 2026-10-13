@@ -1,0 +1,144 @@
+{
+  "global_config": {
+    "save_scenarios": true,
+    "scenario_save_dir": "scenario_library"
+  },
+  "scenarios": [
+    {
+      "id": 1,
+      "name": "左舷交叉_单船",
+      "ship_num": 1,
+      "encounter_type": "crossing-standon",
+      "behavior_mode": "mixed",
+      "description": "场景1: 左舷交叉_单船, 目标船1艘"
+    },
+    {
+      "id": 2,
+      "name": "右舷交叉_单船",
+      "ship_num": 1,
+      "encounter_type": "crossing-giveway",
+      "behavior_mode": "mixed",
+      "description": "场景2: 右舷交叉_单船, 目标船2艘"
+    },
+    {
+      "id": 3,
+      "name": "左右舷交叉_双船",
+      "ship_num": 2,
+      "encounter_type": "crossing-standon+crossing-giveway",
+      "behavior_mode": "mixed",
+      "description": "场景3: 左右舷交叉_双船, 目标船3艘"
+    },
+    {
+      "id": 4,
+      "name": "双右舷交叉_双船",
+      "ship_num": 2,
+      "encounter_type": "crossing-giveway+crossing-giveway",
+      "behavior_mode": "mixed",
+      "description": "场景4: 双右舷交叉_双船, 目标船4艘"
+    },
+    {
+      "id": 5,
+      "name": "双左舷交叉_双船",
+      "ship_num": 2,
+      "encounter_type": "crossing-standon+crossing-standon",
+      "behavior_mode": "mixed",
+      "description": "场景5: 双左舷交叉_双船, 目标船5艘"
+    },
+    {
+      "id": 6,
+      "name": "对遇+交叉_三船",
+      "ship_num": 3,
+      "encounter_type": "head-on+crossing-giveway+crossing-standon",
+      "behavior_mode": "mixed",
+      "description": "场景6: 对遇+交叉_三船, 目标船6艘"
+    },
+    {
+      "id": 7,
+      "name": "追越+交叉+对遇_三船",
+      "ship_num": 3,
+      "encounter_type": "overtaking+crossing-giveway+head-on",
+      "behavior_mode": "mixed",
+      "description": "场景7: 追越+交叉+对遇_三船, 目标船7艘"
+    },
+    {
+      "id": 8,
+      "name": "对遇+交叉_三船",
+      "ship_num": 3,
+      "encounter_type": "head-on+crossing-standon+crossing-giveway",
+      "behavior_mode": "mixed",
+      "description": "场景8: 对遇+交叉_三船, 目标船8艘"
+    },
+    {
+      "id": 9,
+      "name": "追越+交叉+对遇_四船",
+      "ship_num": 4,
+      "encounter_type": "overtaking+crossing-giveway+crossing-standon+head-on",
+      "behavior_mode": "mixed",
+      "description": "场景9: 追越+交叉+对遇_四船, 目标船9艘"
+    },
+    {
+      "id": 10,
+      "name": "对遇+交叉_四船",
+      "ship_num": 4,
+      "encounter_type": "head-on+crossing-giveway+crossing-standon+crossing-giveway",
+      "behavior_mode": "mixed",
+      "description": "场景10: 对遇+交叉_四船, 目标船10艘"
+    },
+    {
+      "id": 11,
+      "name": "追越+交叉_四船",
+      "ship_num": 4,
+      "encounter_type": "overtaking+crossing-giveway+crossing-standon+crossing-giveway",
+      "behavior_mode": "mixed",
+      "description": "场景11: 追越+交叉_四船, 目标船11艘"
+    },
+    {
+      "id": 12,
+      "name": "追越+对遇+交叉_五船",
+      "ship_num": 5,
+      "encounter_type": "overtaking+head-on+crossing-giveway+crossing-standon+crossing-giveway",
+      "behavior_mode": "mixed",
+      "description": "场景12: 追越+对遇+交叉_五船, 目标船12艘"
+    },
+    {
+      "id": 13,
+      "name": "对遇+交叉_五船",
+      "ship_num": 5,
+      "encounter_type": "head-on+crossing-giveway+crossing-standon+crossing-giveway+head-on",
+      "behavior_mode": "mixed",
+      "description": "场景13: 对遇+交叉_五船, 目标船13艘"
+    },
+    {
+      "id": 14,
+      "name": "交叉+对遇_五船",
+      "ship_num": 5,
+      "encounter_type": "crossing-giveway+crossing-standon+head-on+crossing-giveway+crossing-standon",
+      "behavior_mode": "mixed",
+      "description": "场景14: 交叉+对遇_五船, 目标船14艘"
+    },
+    {
+      "id": 15,
+      "name": "交叉+对遇_六船",
+      "ship_num": 6,
+      "encounter_type": "crossing-giveway+crossing-standon+head-on+crossing-giveway+crossing-standon+head-on",
+      "behavior_mode": "mixed",
+      "description": "场景15: 交叉+对遇_六船, 目标船15艘"
+    },
+    {
+      "id": 16,
+      "name": "追越+交叉+对遇_六船",
+      "ship_num": 6,
+      "encounter_type": "overtaking+crossing-giveway+crossing-standon+crossing-giveway+head-on+crossing-standon",
+      "behavior_mode": "mixed",
+      "description": "场景16: 追越+交叉+对遇_六船, 目标船16艘"
+    },
+    {
+      "id": 17,
+      "name": "交叉+对遇_六船",
+      "ship_num": 6,
+      "encounter_type": "crossing-giveway+crossing-standon+head-on+crossing-giveway+crossing-standon+head-on",
+      "behavior_mode": "mixed",
+      "description": "场景17: 交叉+对遇_六船, 目标船17艘"
+    }
+  ]
+}

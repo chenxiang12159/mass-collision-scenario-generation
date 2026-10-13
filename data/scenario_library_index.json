@@ -1,0 +1,250 @@
+{
+  "library_name": "12 种基础仿真场景库",
+  "version": "v1.0",
+  "created_date": "2026-03-18 16:32:02",
+  "total_scenarios": 12,
+  "categories": {
+    "single_ship": [
+      {
+        "id": 1,
+        "name": "交叉相遇_本船右舷_单船",
+        "description": "交叉相遇 (本船右舷) - COLREGs 第 15 条：本船为让路船",
+        "ship_num": 1,
+        "encounter_type": "crossing-giveway",
+        "behavior_mode": "standon",
+        "notes": "目标船保向保速，本船应右转避让"
+      },
+      {
+        "id": 2,
+        "name": "交叉相遇_本船左舷_单船",
+        "description": "交叉相遇 (本船左舷) - COLREGs 第 15 条：本船为直航船",
+        "ship_num": 1,
+        "encounter_type": "crossing-standon",
+        "behavior_mode": "avoid",
+        "notes": "目标船应主动避让，本船保向保速"
+      },
+      {
+        "id": 3,
+        "name": "追越_单船",
+        "description": "追越局面 - COLREGs 第 13 条：本船为让路船",
+        "ship_num": 1,
+        "encounter_type": "overtaking",
+        "behavior_mode": "standon",
+        "notes": "目标船保向保速，本船应从右舷追越"
+      },
+      {
+        "id": 4,
+        "name": "对遇_单船",
+        "description": "对遇局面 - COLREGs 第 14 条：双方均为让路船",
+        "ship_num": 1,
+        "encounter_type": "head-on",
+        "behavior_mode": "avoid",
+        "notes": "两船均应右转，各自从他船左舷通过"
+      },
+      {
+        "id": 12,
+        "name": "特殊船舶遭遇_单船",
+        "description": "与操作受限船/失控船/渔船等特殊船舶遭遇",
+        "ship_num": 1,
+        "encounter_type": "special-vessel",
+        "behavior_mode": "violate",
+        "notes": "目标船可能违规，测试应急反应能力"
+      }
+    ],
+    "two_ships": [
+      {
+        "id": 5,
+        "name": "交叉相遇右舷 + 追越_双船",
+        "description": "复合场景：1 船交叉相遇 (右舷)+1 船追越",
+        "ship_num": 2,
+        "encounter_type": "crossing-giveway+overtaking",
+        "behavior_mode": "mixed",
+        "notes": "双船均为让路船，测试多目标避碰能力"
+      },
+      {
+        "id": 6,
+        "name": "对遇 + 交叉相遇左舷_双船",
+        "description": "复合场景：1 船对遇 +1 船交叉相遇 (左舷)",
+        "ship_num": 2,
+        "encounter_type": "head-on+crossing-standon",
+        "behavior_mode": "mixed",
+        "notes": "1 船让路 +1 船直航，测试优先级判断"
+      },
+      {
+        "id": 7,
+        "name": "对遇 + 交叉相遇右舷_双船",
+        "description": "复合场景：1 船对遇 +1 船交叉相遇 (右舷)",
+        "ship_num": 2,
+        "encounter_type": "head-on+crossing-giveway",
+        "behavior_mode": "mixed",
+        "notes": "双船均为让路船，需协调避让"
+      },
+      {
+        "id": 8,
+        "name": "追越 + 对遇_双船",
+        "description": "复合场景：1 船追越 +1 船对遇",
+        "ship_num": 2,
+        "encounter_type": "overtaking+head-on",
+        "behavior_mode": "mixed",
+        "notes": "双船均为让路船，复杂会遇局面"
+      },
+      {
+        "id": 9,
+        "name": "交叉相遇左舷 + 交叉相遇右舷_双船",
+        "description": "复合场景：1 船交叉 (左舷直航)+1 船交叉 (右舷让路)",
+        "ship_num": 2,
+        "encounter_type": "crossing-standon+crossing-giveway",
+        "behavior_mode": "mixed",
+        "notes": "1 直航 +1 让路，测试规则理解"
+      },
+      {
+        "id": 10,
+        "name": "追越 + 交叉相遇左舷_双船",
+        "description": "复合场景：1 船追越 (让路)+1 船交叉 (左舷直航)",
+        "ship_num": 2,
+        "encounter_type": "overtaking+crossing-standon",
+        "behavior_mode": "mixed",
+        "notes": "1 让路 +1 直航，测试决策优先级"
+      }
+    ],
+    "three_ships": [
+      {
+        "id": 11,
+        "name": "追越 + 交叉左舷 + 对遇_三船",
+        "description": "复杂复合场景：3 船混合会遇",
+        "ship_num": 3,
+        "encounter_type": "overtaking+crossing-standon+head-on",
+        "behavior_mode": "mixed",
+        "notes": "3 船复杂会遇，全面测试避碰系统"
+      }
+    ]
+  },
+  "statistics": {
+    "single_ship_count": 5,
+    "two_ships_count": 6,
+    "three_ships_count": 1,
+    "behavior_modes": {
+      "standon": 2,
+      "avoid": 2,
+      "violate": 1,
+      "mixed": 7
+    }
+  },
+  "scenarios": [
+    {
+      "id": 1,
+      "name": "交叉相遇_本船右舷_单船",
+      "description": "交叉相遇 (本船右舷) - COLREGs 第 15 条：本船为让路船",
+      "ship_num": 1,
+      "encounter_type": "crossing-giveway",
+      "behavior_mode": "standon",
+      "notes": "目标船保向保速，本船应右转避让"
+    },
+    {
+      "id": 2,
+      "name": "交叉相遇_本船左舷_单船",
+      "description": "交叉相遇 (本船左舷) - COLREGs 第 15 条：本船为直航船",
+      "ship_num": 1,
+      "encounter_type": "crossing-standon",
+      "behavior_mode": "avoid",
+      "notes": "目标船应主动避让，本船保向保速"
+    },
+    {
+      "id": 3,
+      "name": "追越_单船",
+      "description": "追越局面 - COLREGs 第 13 条：本船为让路船",
+      "ship_num": 1,
+      "encounter_type": "overtaking",
+      "behavior_mode": "standon",
+      "notes": "目标船保向保速，本船应从右舷追越"
+    },
+    {
+      "id": 4,
+      "name": "对遇_单船",
+      "description": "对遇局面 - COLREGs 第 14 条：双方均为让路船",
+      "ship_num": 1,
+      "encounter_type": "head-on",
+      "behavior_mode": "avoid",
+      "notes": "两船均应右转，各自从他船左舷通过"
+    },
+    {
+      "id": 5,
+      "name": "交叉相遇右舷 + 追越_双船",
+      "description": "复合场景：1 船交叉相遇 (右舷)+1 船追越",
+      "ship_num": 2,
+      "encounter_type": "crossing-giveway+overtaking",
+      "behavior_mode": "mixed",
+      "notes": "双船均为让路船，测试多目标避碰能力"
+    },
+    {
+      "id": 6,
+      "name": "对遇 + 交叉相遇左舷_双船",
+      "description": "复合场景：1 船对遇 +1 船交叉相遇 (左舷)",
+      "ship_num": 2,
+      "encounter_type": "head-on+crossing-standon",
+      "behavior_mode": "mixed",
+      "notes": "1 船让路 +1 船直航，测试优先级判断"
+    },
+    {
+      "id": 7,
+      "name": "对遇 + 交叉相遇右舷_双船",
+      "description": "复合场景：1 船对遇 +1 船交叉相遇 (右舷)",
+      "ship_num": 2,
+      "encounter_type": "head-on+crossing-giveway",
+      "behavior_mode": "mixed",
+      "notes": "双船均为让路船，需协调避让"
+    },
+    {
+      "id": 8,
+      "name": "追越 + 对遇_双船",
+      "description": "复合场景：1 船追越 +1 船对遇",
+      "ship_num": 2,
+      "encounter_type": "overtaking+head-on",
+      "behavior_mode": "mixed",
+      "notes": "双船均为让路船，复杂会遇局面"
+    },
+    {
+      "id": 9,
+      "name": "交叉相遇左舷 + 交叉相遇右舷_双船",
+      "description": "复合场景：1 船交叉 (左舷直航)+1 船交叉 (右舷让路)",
+      "ship_num": 2,
+      "encounter_type": "crossing-standon+crossing-giveway",
+      "behavior_mode": "mixed",
+      "notes": "1 直航 +1 让路，测试规则理解"
+    },
+    {
+      "id": 10,
+      "name": "追越 + 交叉相遇左舷_双船",
+      "description": "复合场景：1 船追越 (让路)+1 船交叉 (左舷直航)",
+      "ship_num": 2,
+      "encounter_type": "overtaking+crossing-standon",
+      "behavior_mode": "mixed",
+      "notes": "1 让路 +1 直航，测试决策优先级"
+    },
+    {
+      "id": 11,
+      "name": "追越 + 交叉左舷 + 对遇_三船",
+      "description": "复杂复合场景：3 船混合会遇",
+      "ship_num": 3,
+      "encounter_type": "overtaking+crossing-standon+head-on",
+      "behavior_mode": "mixed",
+      "notes": "3 船复杂会遇，全面测试避碰系统"
+    },
+    {
+      "id": 12,
+      "name": "特殊船舶遭遇_单船",
+      "description": "与操作受限船/失控船/渔船等特殊船舶遭遇",
+      "ship_num": 1,
+      "encounter_type": "special-vessel",
+      "behavior_mode": "violate",
+      "notes": "目标船可能违规，测试应急反应能力"
+    }
+  ],
+  "encounter_types_summary": {
+    "crossing-giveway": "交叉相遇 - 本船为让路船 (COLREGs 第 15 条)",
+    "crossing-standon": "交叉相遇 - 本船为直航船 (COLREGs 第 15 条)",
+    "overtaking": "追越 - 本船为让路船 (COLREGs 第 13 条)",
+    "head-on": "对遇 - 双方均为让路船 (COLREGs 第 14 条)",
+    "special-vessel": "特殊船舶遭遇 (COLREGs 第 18 条)"
+  }
+}

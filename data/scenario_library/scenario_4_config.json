@@ -1,0 +1,9 @@
+{
+  "id": 4,
+  "name": "对遇_单船",
+  "description": "对遇局面 - COLREGs 第 14 条：双方均为让路船",
+  "ship_num": 1,
+  "encounter_type": "head-on",
+  "behavior_mode": "avoid",
+  "notes": "两船均应右转，各自从他船左舷通过"
+}

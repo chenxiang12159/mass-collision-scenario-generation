@@ -1,0 +1,56 @@
+{
+  "test_index": 1,
+  "ship_num": 6,
+  "mode": "random",
+  "tg_dict": {
+    "tg_1": {
+      "distance": 4467.41,
+      "RelAzm": 347.52,
+      "yaw": 147.03,
+      "speed": 263.68,
+      "rud": 0,
+      "Real Speed(kn)": 5.22
+    },
+    "tg_2": {
+      "distance": 3381.95,
+      "RelAzm": 50.31,
+      "yaw": 239.47,
+      "speed": 291.42,
+      "rud": 0,
+      "Real Speed(kn)": 5.77
+    },
+    "tg_3": {
+      "distance": 5004.72,
+      "RelAzm": 356.18,
+      "yaw": 0.11,
+      "speed": 251.46,
+      "rud": 0,
+      "Real Speed(kn)": 4.98
+    },
+    "tg_4": {
+      "distance": 3958.6,
+      "RelAzm": 23.54,
+      "yaw": 57.75,
+      "speed": 1010.0,
+      "rud": 0,
+      "Real Speed(kn)": 20.0
+    },
+    "tg_5": {
+      "distance": 3844.54,
+      "RelAzm": 324.64,
+      "yaw": 91.43,
+      "speed": 203.05,
+      "rud": 0,
+      "Real Speed(kn)": 4.02
+    },
+    "tg_6": {
+      "distance": 4399.62,
+      "RelAzm": 101.91,
+      "yaw": 17.92,
+      "speed": 498.74,
+      "rud": 0,
+      "Real Speed(kn)": 9.88
+    }
+  },
+  "generate_time": "2026-03-05 10:25:47"
+}

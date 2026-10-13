@@ -1,0 +1,9 @@
+{
+  "id": 2,
+  "name": "交叉相遇_本船左舷_单船",
+  "description": "交叉相遇 (本船左舷) - COLREGs 第 15 条：本船为直航船",
+  "ship_num": 1,
+  "encounter_type": "crossing-standon",
+  "behavior_mode": "avoid",
+  "notes": "目标船应主动避让，本船保向保速"
+}

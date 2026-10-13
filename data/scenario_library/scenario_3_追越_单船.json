@@ -1,0 +1,58 @@
+{
+  "test_index": 3,
+  "ship_num": 5,
+  "mode": "random",
+  "tg_dict": {
+    "tg_1": {
+      "distance": 3428.82,
+      "RelAzm": 305.63,
+      "yaw": 90.03,
+      "speed": 355.49,
+      "rud": 6.37,
+      "Real Speed(kn)": 7.04,
+      "behavior_mode": "violate",
+      "encounter_type": "crossing-standon"
+    },
+    "tg_2": {
+      "distance": 3998.36,
+      "RelAzm": 60.89,
+      "yaw": 17.24,
+      "speed": 705.03,
+      "rud": 0.0,
+      "Real Speed(kn)": 13.96,
+      "behavior_mode": "avoid",
+      "encounter_type": "crossing-standon"
+    },
+    "tg_3": {
+      "distance": 5608.4,
+      "RelAzm": 358.72,
+      "yaw": 358.11,
+      "speed": 277.98,
+      "rud": 0.0,
+      "Real Speed(kn)": 5.5,
+      "behavior_mode": "standon",
+      "encounter_type": "crossing-standon"
+    },
+    "tg_4": {
+      "distance": 3841.11,
+      "RelAzm": 39.88,
+      "yaw": 267.75,
+      "speed": 459.29,
+      "rud": 0.0,
+      "Real Speed(kn)": 9.09,
+      "behavior_mode": "standon",
+      "encounter_type": "crossing-standon"
+    },
+    "tg_5": {
+      "distance": 4825.76,
+      "RelAzm": 310.07,
+      "yaw": 40.18,
+      "speed": 555.74,
+      "rud": 0.0,
+      "Real Speed(kn)": 11.0,
+      "behavior_mode": "avoid",
+      "encounter_type": "crossing-standon"
+    }
+  },
+  "generate_time": "2026-03-17 10:53:03"
+}

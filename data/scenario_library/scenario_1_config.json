@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "交叉相遇_本船右舷_单船",
+  "description": "交叉相遇 (本船右舷) - COLREGs 第 15 条：本船为让路船",
+  "ship_num": 1,
+  "encounter_type": "crossing-giveway",
+  "behavior_mode": "standon",
+  "notes": "目标船保向保速，本船应右转避让"
+}

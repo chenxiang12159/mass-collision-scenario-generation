@@ -1,0 +1,9 @@
+{
+  "id": 6,
+  "name": "对遇 + 交叉相遇左舷_双船",
+  "description": "复合场景：1 船对遇 +1 船交叉相遇 (左舷)",
+  "ship_num": 2,
+  "encounter_type": "head-on+crossing-standon",
+  "behavior_mode": "mixed",
+  "notes": "1 船让路 +1 船直航，测试优先级判断"
+}
